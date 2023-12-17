@@ -148,6 +148,9 @@ body {
   width: 100%;
   min-width: 264px;
 }
+.list-svg {
+  background-color: #f4f4fd;
+}
 .joker {
   font-weight: 500;
   font-size: 20px;
@@ -209,20 +212,24 @@ body {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-
 .about-employ {
   padding: 32px 0;
 }
-
 .plus {
   text-align: center;
 }
-
+.list-team-svg {
+  list-style: none;
+}
 /* Footer */
 
 .big-toe {
   background-color: #2e2f42;
+  margin: 0 auto;
+  width: 1440px;
+  height: 312px;
   padding: 100px 0;
+  display: flex;
 }
 .span-logo {
   color: #f4f4f4fd;
